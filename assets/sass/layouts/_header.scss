@@ -1,0 +1,39 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2.5rem 0;
+    z-index: 1024;
+    transition: all 0.3s ease-out 0s;
+    
+    
+    .navbar {
+        a {
+            font-size: 1.8rem;
+            font-family: 'Mulish';
+            margin: 0 3rem;
+        }
+        .brand-logo {
+            margin: 0 10rem;
+            transition: all 0.3s;
+
+            img {
+                transition: all 0.3s;
+            }
+        }
+    }
+    &.sticky {
+        background-color: #101010;
+        padding: 0;
+        .navbar {
+            .brand-logo {
+                margin: 0 6rem;
+                img {
+                    transform: scale(0.8);
+                    transform-origin: center;
+                }
+            }
+        }
+    }
+}

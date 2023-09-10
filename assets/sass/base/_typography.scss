@@ -1,0 +1,24 @@
+html {
+	@include xl-up {
+		font-size: 50%;
+	}
+	@include xxl-up {
+		font-size: 58%;
+	}
+	@include xxxl-up {
+		font-size: 62.5%;
+	}
+}
+
+body {
+	font-family: 'Roboto';
+	font-weight: normal;
+	background-color: #101010;
+	color: var(--color__white)
+}
+
+@import 'colors';
+@import 'copy';
+@import 'headings';
+@import 'section-title';
+

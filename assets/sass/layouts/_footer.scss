@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------
+# Footer-block
+--------------------------------------------------------------*/
+footer {
+    .footer-top {
+        background: linear-gradient(90deg, #E80BEE 0%, #FFC612 96%);
+        padding: 60px 0;
+        position: relative;
+        z-index: 1;
+
+        .footer-menu {
+            margin: 5rem 0;
+            li {
+                a {
+                    font-size: 1.8rem;
+                    margin: 0 3rem;
+                }
+            }
+        }
+        .social-contacts {
+            a {
+                margin: 0 1rem;
+            }
+        }
+        .shapes {
+            inset: 0;
+            position: absolute;
+            z-index: -1;
+
+            .shape1 {
+                position: absolute;
+                top: -3rem;
+                right: 5%;
+                width: 50%;
+            }
+        }
+    }
+    .footer-bottom {
+        padding: 2rem 0;
+        p {
+            font-size: 1.6rem;
+        }
+    }
+}
